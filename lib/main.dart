@@ -66,8 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void checkVersionUpdate() async {
-    const repositoryOwner = 'Ash-la';
-    const repositoryName = 'version-apk';
+    const repositoryOwner = 'asvi9';
+    const repositoryName = 'version';
     final response = await http.get(Uri.parse(
       'https://api.github.com/repos/$repositoryOwner/$repositoryName/releases/latest',
     ));
